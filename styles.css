@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: #222;
+  text-align: center;
+}
+
+header {
+  background-color: #b6e36c;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 2rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.profile-section {
+  padding: 2rem;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #b6e36c;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin-bottom: 0.2rem;
+}
+
+p {
+  max-width: 600px;
+  margin: auto;
+  padding: 0.5rem;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 15px;
+  background-color: lightseagreen;
+  border-radius: 100%;
+}
+.button-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.circle-btn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.circle-btn.resume {
+  background-color: #b6e36c;
+  color: #000;
+  border: 5px solid #f2a541;
+}
+.circle-btn.research {
+  background-color: #f2a541;
+  color: #000;
+  border: 5px solid #b6e36c;
+}
+.circle-btn.outreach {
+  background-color: #a6e3f2;
+  color: #000;
+  border: 5px solid #c4c4c4;
+}
+.circle-btn.personal {
+  background-color: #c4c4c4;
+  color: #000;
+  border: 5px solid #a6e3f2;
+}
+
+.circle-btn:hover {
+  transform: scale(1.1);
+}
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  margin: 0 10px;
+  padding: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.3s ease;
+  font-size: 18px;
+}
+
+.social-media a:hover {
+  transform: scale(1.2);
+  background-color: #555;
+}
+.social-media a.facebook {
+  background-color: red;
+}
+.social-media a.github {
+  background-color: #24292e;
+}
+
+footer {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: lightseagreen;
+}
+
+footer a {
+  color: #333;
+  text-decoration: outline;
+}

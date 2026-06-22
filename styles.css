@@ -36,12 +36,8 @@ nav a {
 }
 
 .profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid #b6e36c;
-  margin-bottom: 1rem;
+    width: min(200px, 80vw);
+    height: min(200px, 80vw);
 }
 
 h1 {
